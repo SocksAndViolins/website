@@ -2,3 +2,9 @@ url: https://www.antoniopontarelli.com
 exclude:
   - Gemfile
   - Gemfile.lock
+  - .git
+  - .gitignore
+  - _sass
+  - package.json
+  - gulpfile.js
+  - node_modules

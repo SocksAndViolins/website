@@ -1,0 +1,33 @@
+.home {
+  .home-figure {
+    min-width: 100%;
+    background: #000;
+    margin: 0;
+    .home-figure-image {
+      display: block;
+      margin: auto;
+      height: auto;
+      max-width: 100%;
+    }
+  }
+}
+
+.video {
+  background: #000;
+  .video-figure {
+    margin: 0;
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+  }
+  .video-figure iframe,
+  .video-figure object,
+  .video-figure embed {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+  }
+}  
