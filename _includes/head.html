@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ include.title }}</title>
+    <meta name="description" content="{{ include.description }}">
+    <link rel="canonical" href="{{ site.url }}{{ include.canonical }}">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{ include.social_title }}">
+    <meta property="og:description" content="{{ include.social_description }}">
+    <meta property="og:url" content="{{ site.url }}{{ include.canonical }}">
+    <meta property="og:site_name" content="{{ include.title }}">
+    <meta property="twitter:card" content="summary">
+    <meta property="twitter:title" content="{{ include.social_title }}">
+    <meta property="twitter:description" content="{{ include.social_description }}">
+    <script type="application/ld+json">{{ include.schemaorg }}</script>
+  </head>
+

@@ -1,0 +1,4 @@
+url: https://www.antoniopontarelli.com
+exclude:
+  - Gemfile
+  - Gemfile.lock
