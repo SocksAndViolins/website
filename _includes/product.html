@@ -1,0 +1,16 @@
+<div class="product">
+  <img src="{{ product.image }}" alt="{{ product.name }}" class="thumbnail"/>
+  <figcaption class="product" href="{{ site.baseurl}}{{ product.url }}">
+    {{ product.name }}
+  </figcaption>
+  
+  <button
+    class="snipcart-add-item"
+    data-item-name="{{ product.name }}"
+    data-item-id="{{ product.sku }}"
+    data-item-image="{{ product.image }}"
+    data-item-url="{{ site.baseurl }}"
+    data-item-price="{{ product.price }}">
+    Add To Cart - ${{ product.price }}
+  </button>
+</div>
