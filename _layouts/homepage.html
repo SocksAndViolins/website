@@ -17,15 +17,14 @@
       <div id="connect-musicicons" class="connect-musicicons">
       <h3>Listen to Antonio's new album on:</h3>
       <ul class="soc">  
-      <li><a class="soc-youtube" href="https://www.youtube.com/antoniopontarelli"></a></li>
-      <li><a class="soc-spotify" href="#"></a></li>
-      <li><a class="soc-amazon" href="#"></a></li>
-      <li><a class="soc-play" href="#"></a></li>
-      <li><a class="soc-apple" href="#"></a></li>
+      <li><a class="soc-youtube" href="{{ page.youtube }}"></a></li>
+      <li><a class="soc-spotify" href="{{ page.spotify }}"></a></li>
+      <li><a class="soc-amazon" href="{{ page.amazon }}"></a></li>
+      <li><a class="soc-play" href="{{ page.googleplay }}"></a></li>
+      <li><a class="soc-apple" href="{{ page.apple }}"></a></li>
       </ul> </div>
-      <h2>Hero of the Absurd</h2>
       <figure class="connect-figure">
-        <img src="{{ site.baseurl }}{{ page.album_image }}" class="connect-figure-image" alt="Album">
+        <a href="{{ page.youtube }}"><img src="{{ site.baseurl }}{{ page.album_image }}" class="connect-figure-image" alt="Album"></a>
       </figure>
       <div id="mc_embed_signup">
         <form action="//antoniopontarelli.us7.list-manage.com/subscribe/post?u=fdc43492c9e47d2bcb65945ee&amp;id=e2ac0aefb2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -40,16 +39,16 @@
       </div>
       <div id="connect-socialicons" class="connect-socialicons">
       <ul class="soc">
-      <li><a class="soc-twitter" href="https://twitter.com/apontarelli"></a></li>
-      <li><a class="soc-facebook" href="https://www.facebook.com/antoniopontarelli/"></a></li>
-      <li><a class="soc-instagram" href="https://www.instagram.com/antoniopontarelli/"></a></li>
-      <li><a class="soc-mail soc-icon-last" href="mailto:apontarellimusic@gmail.com"></a></li>
+      <li><a class="soc-facebook" href="{{ page.facebook }}"></a></li>
+      <li><a class="soc-instagram" href="{{ page.instagram }}"></a></li>
+      <li><a class="soc-twitter" href="{{ page.twitter }}"></a></li>
+      <li><a class="soc-mail soc-icon-last" href="mailto:{{ page.contactemail }}"></a></li>
       </ul></div>
     </section>
     <section id="store" class="store">
-      {% for product in site.products %}
+      {% comment %}{% for product in site.products %}
         {% include product.html %}
-      {% endfor %}
+      {% endfor %}{% endcomment %}
     </section>
     <footer id="end" class="end">
       <figure class="end-figure">
