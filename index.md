@@ -14,10 +14,11 @@ googleplay: https://play.google.com/music/m/Al7snrkbtfk5jjpojumzooeddcu?t=Antoni
 facebook: https://www.facebook.com/antoniopontarelli
 instagram: https://www.instagram.com/antoniopontarelli
 twitter: https://twitter.com/apontarelli
+soundcloud: https://soundcloud.com/antonio-pontarelli/sets/ep-1
 contactemail: apontarellimusic@gmail.com
 main_image: /assets/img/homepage.jpg
 signature: /assets/img/signature.png
-main_video: https://www.youtube.com/embed/_M6PgV492Nw?controls=2&amp;autohide=1
+main_video: https://www.youtube.com/embed/-SRVD9U2GV0?controls=2&autohide=1
 album_image: /assets/img/albumimage.jpg
 end_image: /assets/img/logo_white_small.png
 ---

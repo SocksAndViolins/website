@@ -193,9 +193,11 @@ html, body {
 .soc-icon-last{
     margin:0 !important;
 }
-
 .soc-youtube:before {
     content:'\e051';
+}
+.soc-soundcloud:before {
+    content:'\e04d';
 }
 .soc-spotify:before {
     content:'\e04e';
